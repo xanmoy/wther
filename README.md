@@ -3,6 +3,7 @@
 A simple command-line tool to fetch weather information, packaged as a Snap.
 [![wther](https://snapcraft.io/wther/badge.svg)](https://snapcraft.io/wther)
 
+
 [![Get it from the Snap Store](https://snapcraft.io/en/dark/install.svg)](https://snapcraft.io/wther)
 
 ```bash
