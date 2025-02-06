@@ -2,6 +2,8 @@
 
 A simple command-line tool to fetch weather information using [wttr.in](https://wttr.in), packaged as a Snap.
 
+![Description](https://github.com/xanmoy/wther/blob/main/screenshots/img1.png)
+
 ## Features
 - Fetches weather for a specified location
 - Defaults to IP-based location if no input is provided
