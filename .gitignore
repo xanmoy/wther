@@ -1,0 +1,19 @@
+# Ignore Snapcraft build artifacts
+snap/
+*.snap
+*.manifest
+*.build-info
+
+# Ignore temporary files
+*.log
+*.swp
+*.bak
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore user-specific settings
+.idea/
+.vscode/

@@ -1,0 +1,23 @@
+name: wther
+base: core22
+version: "1.0"
+summary: "A simple CLI tool to fetch weather information from wttr.in"
+description: |
+  This Snap package provides a Bash-based command-line tool to fetch weather 
+  information using wttr.in. You can specify a location or let it detect automatically.
+
+grade: stable
+confinement: strict
+
+apps:
+  weather:
+    command: src/wther.sh
+    plugs:
+      - network
+
+parts:
+  weather:
+    plugin: dump
+    source: .
+    organize:
+      weather.sh: src/wther.sh
