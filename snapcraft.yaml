@@ -10,14 +10,16 @@ grade: stable
 confinement: strict
 
 apps:
-  weather:
-    command: src/wther.sh
+  wther:
+    command: bin/wther.sh
     plugs:
       - network
 
 parts:
-  weather:
+  wther:
     plugin: dump
     source: .
     organize:
-      weather.sh: src/wther.sh
+      src/wther.sh: bin/wther.sh
+    override-build: |
+      chmod 755 $SNAPCRAFT_PART_INSTALL/bin/wther.sh
