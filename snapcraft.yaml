@@ -21,5 +21,9 @@ parts:
     source: .
     organize:
       src/wther.sh: bin/wther.sh
+    stage-packages:
+      - curl
     override-build: |
+      mkdir -p $SNAPCRAFT_PART_INSTALL/bin
+      cp src/wther.sh $SNAPCRAFT_PART_INSTALL/bin/wther.sh
       chmod 755 $SNAPCRAFT_PART_INSTALL/bin/wther.sh
