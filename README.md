@@ -1,6 +1,6 @@
 # Wther CLI
 
-A simple command-line tool to fetch weather information using [wttr.in](https://wttr.in), packaged as a Snap.
+A simple command-line tool to fetch weather information (https://wttr.in), packaged as a Snap.
 [![wther](https://snapcraft.io/wther/badge.svg)](https://snapcraft.io/wther)
 
 [![Get it from the Snap Store](https://snapcraft.io/en/dark/install.svg)](https://snapcraft.io/wther)
