@@ -1,4 +1,4 @@
-# Weather CLI Snap
+# Wther CLI
 
 A simple command-line tool to fetch weather information using [wttr.in](https://wttr.in), packaged as a Snap.
 
